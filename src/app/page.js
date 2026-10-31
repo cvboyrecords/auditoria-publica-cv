@@ -3,7 +3,7 @@ import '@/i18n';
 import LanguageSelector from '@/components/LanguageSelector';
 import PricingSection from '@/components/PricingSection';
 
-vexport default function Home() {
+export default function Home() {
   return (
     <main className="min-h-screen bg-slate-950 text-slate-100 p-6">
       <header className="flex justify-between items-center mb-10 max-w-6xl mx-auto border-b border-slate-800 pb-4">
