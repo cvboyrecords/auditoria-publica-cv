@@ -1,8 +1,27 @@
 {
-  "title": "Sistema de Auditoria de Contratação Pública",
-  "subtitle": "Monitorização em tempo real do Diário da República e deteção de inconformidades.",
-  "status": "Sistema Operacional",
-  "audit": "Executar Auditoria",
-  "alerts": "Alertas Ativos",
-  "subscribe": "Subscrever Plano"
+  "title": "Auditoria Pública CV",
+  "subtitle": "Sistema Inteligente de Contratação Pública",
+  "plansTitle": "Planos de Subscrição",
+  "plansSubtitle": "Escolha o nível ideal para a sua atividade jurídica e empresarial.",
+  "subscribe": "Subscrever Plano",
+  "starterTitle": "Starter Public Procurement",
+  "starterFeatures": [
+    "Monitorização Diária do Diário da República",
+    "Relatórios Padrão em PDF",
+    "Alertas por E-mail"
+  ],
+  "proTitle": "Pro Public Procurement",
+  "proFeatures": [
+    "Tudo do Starter",
+    "Alertas Automáticos via WhatsApp & E-mail",
+    "Até 5 Utilizadores",
+    "Exportação Ilimitada de Dados"
+  ],
+  "enterpriseTitle": "Enterprise Public Procurement (High-Ticket)",
+  "enterpriseFeatures": [
+    "Tudo do Pro",
+    "Suporte Dedicado VIP via WhatsApp",
+    "Auditorias Prioritárias High-Ticket",
+    "Integração de API Personalizada"
+  ]
 }

@@ -1,8 +1,27 @@
 {
-  "title": "نظام تدقيق الصفقات العمومية",
-  "subtitle": "مراقبة الجريدة الرسمية في الوقت الفعلي والتنبيه بشأن عدم المطابقة.",
-  "status": "نظام تشغيلي",
-  "audit": "تشغيل التدقيق",
-  "alerts": "التنبيهات النشطة",
-  "subscribe": "اشتراك"
+  "title": "تدقيق الرأي العام الرأس الأخضر",
+  "subtitle": "نظام ذكي للمشتريات العامة",
+  "plansTitle": "خطط الاشتراك",
+  "plansSubtitle": "اختر المستوى المثالي لنشاطك القانوني والمهني.",
+  "subscribe": "اشتراك",
+  "starterTitle": "Starter Public Procurement",
+  "starterFeatures": [
+    "المراقبة اليومية للجريدة الرسمية",
+    "تقارير PDF قياسية",
+    "تنبيهات البريد الإلكتروني"
+  ],
+  "proTitle": "Pro Public Procurement",
+  "proFeatures": [
+    "كل مميزات Starter",
+    "تنبيهات آلية عبر الواتساب والبريد",
+    "ما يصل إلى 5 مستخدمين",
+    "تصدير غير محدود للبيانات"
+  ],
+  "enterpriseTitle": "Enterprise Public Procurement (High-Ticket)",
+  "enterpriseFeatures": [
+    "كل مميزات Pro",
+    "دعم VIP مخصص عبر الواتساب",
+    "عمليات تدقيق ذات أولوية عالية",
+    "تكامل API مخصص"
+  ]
 }

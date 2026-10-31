@@ -7,37 +7,23 @@ export default function PricingSection() {
   const plans = [
     {
       id: 'starter',
-      name: 'Starter Public Procurement',
+      name: t('starterTitle'),
       stripeUrl: 'https://buy.stripe.com/8x2aEXgNhd8y5bf2IP1Jm07',
-      features: [
-        'Monitorização Diária do Diário da República',
-        'Relatórios Padrão em PDF',
-        'Alertas por E-mail'
-      ],
+      features: t('starterFeatures', { returnObjects: true }),
       highlight: false
     },
     {
       id: 'pro',
-      name: 'Pro Public Procurement',
+      name: t('proTitle'),
       stripeUrl: 'https://buy.stripe.com/3cI4gz40vd8y47bdnt1Jm08',
-      features: [
-        'Tudo do Starter',
-        'Alertas Automáticos via WhatsApp & E-mail',
-        'Até 5 Utilizadores',
-        'Exportação Ilimitada de Dados'
-      ],
+      features: t('proFeatures', { returnObjects: true }),
       highlight: true
     },
     {
       id: 'enterprise',
-      name: 'Enterprise Public Procurement (High-Ticket)',
+      name: t('enterpriseTitle'),
       stripeUrl: 'https://buy.stripe.com/28E00jfJdc4u0UZ8391Jm09',
-      features: [
-        'Tudo do Pro',
-        'Suporte Dedicado VIP via WhatsApp',
-        'Auditorias Prioritárias High-Ticket',
-        'Integração de API Personalizada'
-      ],
+      features: t('enterpriseFeatures', { returnObjects: true }),
       highlight: false
     }
   ];
@@ -45,8 +31,8 @@ export default function PricingSection() {
   return (
     <section className="py-12 bg-slate-950 text-slate-100">
       <div className="max-w-6xl mx-auto px-4 text-center">
-        <h2 className="text-3xl font-bold mb-4">Planos de Subscrição</h2>
-        <p className="text-slate-400 mb-10">Escolha o nível ideal para a sua atividade jurídica e empresarial.</p>
+        <h2 className="text-3xl font-bold mb-4">{t('plansTitle')}</h2>
+        <p className="text-slate-400 mb-10">{t('plansSubtitle')}</p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {plans.map((plan) => (
@@ -62,7 +48,7 @@ export default function PricingSection() {
                 <h3 className="text-xl font-bold text-blue-400 mb-6">{plan.name}</h3>
 
                 <ul className="text-left space-y-3 mb-8 text-sm text-slate-300">
-                  {plan.features.map((feat, idx) => (
+                  {Array.isArray(plan.features) && plan.features.map((feat, idx) => (
                     <li key={idx} className="flex items-center gap-2">
                       <span className="text-emerald-400">✓</span> {feat}
                     </li>

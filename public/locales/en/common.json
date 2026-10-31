@@ -1,8 +1,27 @@
 {
-  "title": "Public Procurement Audit System",
-  "subtitle": "Real-time monitoring of the Official Gazette and compliance alerts.",
-  "status": "Operational System",
-  "audit": "Run Audit",
-  "alerts": "Active Alerts",
-  "subscribe": "Subscribe Plan"
+  "title": "Public Audit CV",
+  "subtitle": "Intelligent Public Procurement System",
+  "plansTitle": "Subscription Plans",
+  "plansSubtitle": "Choose the ideal tier for your legal and business activity.",
+  "subscribe": "Subscribe Plan",
+  "starterTitle": "Starter Public Procurement",
+  "starterFeatures": [
+    "Daily Official Gazette Monitoring",
+    "Standard PDF Reports",
+    "Email Alerts"
+  ],
+  "proTitle": "Pro Public Procurement",
+  "proFeatures": [
+    "Everything in Starter",
+    "Automated WhatsApp & Email Alerts",
+    "Up to 5 Users",
+    "Unlimited Data Export"
+  ],
+  "enterpriseTitle": "Enterprise Public Procurement (High-Ticket)",
+  "enterpriseFeatures": [
+    "Everything in Pro",
+    "VIP Dedicated WhatsApp Support",
+    "Priority High-Ticket Audits",
+    "Custom API Integration"
+  ]
 }

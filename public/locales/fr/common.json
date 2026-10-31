@@ -1,8 +1,27 @@
 {
-  "title": "Système d'Audit des Marchés Publics",
-  "subtitle": "Surveillance en temps réel du Journal Officiel et alertes de non-conformité.",
-  "status": "Système Opérationnel",
-  "audit": "Exécuter l'Audit",
-  "alerts": "Alertes Actives",
-  "subscribe": "Souscrire"
+  "title": "Audit Public CV",
+  "subtitle": "Système Intelligent des Marchés Publics",
+  "plansTitle": "Plans d'Abonnement",
+  "plansSubtitle": "Choisissez le niveau idéal pour votre activité juridique et professionnelle.",
+  "subscribe": "Souscrire",
+  "starterTitle": "Starter Public Procurement",
+  "starterFeatures": [
+    "Surveillance quotidienne du Journal Officiel",
+    "Rapports PDF standard",
+    "Alertes par e-mail"
+  ],
+  "proTitle": "Pro Public Procurement",
+  "proFeatures": [
+    "Tout du Starter",
+    "Alertes automatiques WhatsApp et e-mail",
+    "Jusqu'à 5 utilisateurs",
+    "Exportation de données illimitée"
+  ],
+  "enterpriseTitle": "Enterprise Public Procurement (High-Ticket)",
+  "enterpriseFeatures": [
+    "Tout du Pro",
+    "Support dédié VIP via WhatsApp",
+    "Audits prioritaires High-Ticket",
+    "Intégration API personnalisée"
+  ]
 }
