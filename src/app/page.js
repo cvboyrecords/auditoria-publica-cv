@@ -1,9 +1,9 @@
-'ссов client';
+'use client';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import LanguageSelector from '@/components/LanguageSelector';
 import PricingSection from '@/components/PricingSection';
-import '../../i18n';
+import '@/../i18n';
 
 export default function Home() {
   const { t, i18n } = useTranslation();
