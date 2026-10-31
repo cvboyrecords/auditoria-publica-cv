@@ -1,7 +1,7 @@
 'use client';
-import '@/i18n';
-import LanguageSelector from '@/components/LanguageSelector';
-import PricingSection from '@/components/PricingSection';
+import '../i18n';
+import LanguageSelector from '../components/LanguageSelector';
+import PricingSection from '../components/PricingSection';
 
 export default function Home() {
   return (
